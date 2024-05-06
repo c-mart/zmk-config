@@ -35,7 +35,7 @@
                       &trans &trans &trans   &kp UNDER &kp LPAR &kp RPAR
                         >;
                 };
-                template_layer {
+                nav_layer {
                         bindings = <
    &none  &none &none &none &none &none   &none &none  &none     &none   &none    &none
    &none  &none &none &none &none &none   &none &none  &none     &none   &none    &none
@@ -43,7 +43,15 @@
                       &none &none &none   &none &none &none
                         >;
                 };
-                template_layer {
+                media_layer {
+                        bindings = <
+   &none  &none &none &none &none &none   &none &none  &none     &none   &none    &none
+   &none  &none &none &none &none &none   &none &none  &none     &none   &none    &none
+   &none  &none &none &none &none &none   &none &none &none     &none   &none    &none
+                      &none &none &none   &none &none &none
+                        >;
+                };
+                fun_layer {
                         bindings = <
    &none  &none &none &none &none &none   &none &none  &none     &none   &none    &none
    &none  &none &none &none &none &none   &none &none  &none     &none   &none    &none
